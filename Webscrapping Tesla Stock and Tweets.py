@@ -170,13 +170,6 @@ twint.run.Search(c)
 # In[225]:
 
 
-# Scrap Bespokeinvest tweets mentioning about Tesla
-c = twint.Config()
-c.Username = "bespokeinvest"
-c.Search = "tesla"
-c.Store_csv=True
-c.Output="C:/Users/fibnn/OneDrive/Desktop/bespokeinvest_tweet.csv"
-
 
 # Run
 twint.run.Search(c)
