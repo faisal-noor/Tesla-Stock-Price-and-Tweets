@@ -8,7 +8,7 @@
 
 # For the default integer index behavior
 from alpha_vantage.timeseries import TimeSeries
-ts = TimeSeries(key='GFNXHWUW69O13SI7',output_format='pandas')
+ts = TimeSeries(key='API Key',output_format='pandas')
 
 
 # In[202]:
@@ -199,6 +199,7 @@ c.Username = "steve_hanke"
 c.Search = "tesla"
 c.Store_csv=True
 c.Output="C:/Users/fibnn/OneDrive/Desktop/stevehank_tweet.csv"
+
 
 
 # Run
